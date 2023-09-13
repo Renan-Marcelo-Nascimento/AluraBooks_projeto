@@ -56,6 +56,13 @@
     padding: 0.5em 0;
 }
 
+.descricao__titulo-escritora{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
 .descricao__texto{
     font-size: 14px;
 }
@@ -71,4 +78,8 @@
     font-weight: 700;
     text-decoration: none;
 
+}
+
+.descricao__imagem{
+    padding: 0.5em 0;
 }
