@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito{
-        font-family: var(--fontse-secundaria);
+        font-family: var(--fonte-secundaria);
         font-weight: 400;
         font-size: 30px;
     }
