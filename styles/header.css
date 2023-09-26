@@ -8,6 +8,19 @@
     
 }
 
+.container__rotulo{
+    padding: 1em;
+}
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer{
+    background-image: url("../assets/Menu\ Aberto.svg");
+    
+}
+
+.container__botao:checked ~ .container__rotulo{
+    background: var(--azul-degrade);
+    
+}
+
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -34,6 +47,7 @@
 
 .container__botao:checked~.lista-menu{
     display: block;
+    z-index: 10;
 }
 
 .lista-menu__item, .lista-menu__titulo{
@@ -92,13 +106,14 @@
     }
 
     .opcoes__item{
-        padding: 0 1em;
+        padding: 1em;
         text-transform: uppercase;
     }
 
     .opcoes__link{
         text-decoration: none;
         color: var(--preto);
+
         
     }
 
@@ -117,6 +132,21 @@
 
     .opcoes__botao{
         display: none;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+        
+    }
+
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
     }
 }
 
