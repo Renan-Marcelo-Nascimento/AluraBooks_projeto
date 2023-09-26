@@ -113,8 +113,15 @@
     .opcoes__link{
         text-decoration: none;
         color: var(--preto);
-
+        padding: 1em;
         
+    }
+
+    .opcoes__link:hover{
+        background: var(--azul-degrade);
+        padding: 1em;
+        color: var(--branco);
+
     }
 
     .container__imagem-invisivel{

@@ -47,6 +47,13 @@ hr{
         font-size: 24px;
     }
     
+    .lista-rodape__link:hover{
+        color: var(--cinza-claro);
+    }
+
+    .lista-rodape__link:hover:active{
+        color: var(--laranja);
+    }
 }
 
 @media screen and (min-width: 1728px){
