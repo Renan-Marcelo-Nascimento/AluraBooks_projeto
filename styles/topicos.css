@@ -32,6 +32,16 @@
     margin: 2em 0.5em;
 }
 
+.topicos__link:hover{
+    background-color: var(--laranja-claro);
+}
+
+.topicos__link:active:hover{
+    background-color: var(--azul-escuro);
+}
+
+
+
 @media screen and (min-width: 1024px){
     .topicos__titulo{
         font-size: 24px;
